@@ -1,0 +1,15 @@
+Algoritmo ResolverEcuaciones
+	Escribir 'Este programa puede resolver ecuaciones a*x + b = c'
+	Escribir 'Inserte el valor para a'
+	Leer a
+	Escribir 'inserte el valor para b'
+	Leer b
+	Escribir 'Inserte el valor para c'
+	Leer c
+	Si a=0 Entonces
+		Escribir 'No se puede realizar la operación'
+	SiNo
+		x <- (b-c)/a
+		Escribir 'El resultado de la operacion es',x
+	FinSi
+FinAlgoritmo
